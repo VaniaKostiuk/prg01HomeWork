@@ -10,5 +10,5 @@ public class CCar extends CVehicle {
 	public String toString() {
 		return "CCar [x=" + x + ", y=" + y + ", price=" + price + ", speed=" + speed + ", dateYear=" + dateYear + "]";
 	}
-	
+	//gitsink
 }
