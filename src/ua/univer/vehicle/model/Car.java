@@ -1,8 +1,10 @@
-package prg01HomeWork;
+package ua.univer.vehicle.model;
 
-public class CCar extends CVehicle {
+import prg01HomeWork.Vehicle;
 
-	public CCar(int x, int y, int price, int speed, int dateYear) {
+public class Car extends Vehicle {
+
+	public Car(int x, int y, int price, int speed, int dateYear) {
 		super(x, y, price, speed, dateYear);
 	}
 

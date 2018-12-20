@@ -1,6 +1,8 @@
-package prg01HomeWork;
+package ua.univer.vehicle.model;
 
-public class CPlain extends CVehicle {
+import prg01HomeWork.Vehicle;
+
+public class Plain extends Vehicle {
 	public int height ;
 	public int numPassPlain ;
 	
@@ -18,7 +20,7 @@ public class CPlain extends CVehicle {
 		this.numPassPlain = numPassPlain;
 	}
 
-	public CPlain(int x, int y, int price, int speed, int dateYear, int height ,int numPassPlain) {
+	public Plain(int x, int y, int price, int speed, int dateYear, int height ,int numPassPlain) {
 		super(x, y, price, speed, dateYear);
 		this.height = height ;
 		this.numPassPlain = numPassPlain ;

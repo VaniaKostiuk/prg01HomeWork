@@ -1,6 +1,6 @@
 package prg01HomeWork;
 
-public abstract class CVehicle {
+public abstract class Vehicle {
 	
 	public int x , y ;
 	public int price ;
@@ -42,7 +42,7 @@ public abstract class CVehicle {
 		this.dateYear = dateYear;
 	}
 
-	public CVehicle(int x, int y, int price, int speed, int dateYear) {
+	public Vehicle(int x, int y, int price, int speed, int dateYear) {
 		super();
 		this.x = x;
 		this.y = y;

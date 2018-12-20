@@ -1,6 +1,8 @@
-package prg01HomeWork;
+package ua.univer.vehicle.model;
 
-public class CShip extends CVehicle {
+import prg01HomeWork.Vehicle;
+
+public class Ship extends Vehicle {
 	public int numPassShip ;
 	public int homePort ;
 	
@@ -18,7 +20,7 @@ public class CShip extends CVehicle {
 		this.homePort = homePort;
 	}
 
-	public CShip(int x, int y, int price, int speed, int dateYear,int numPassShip,int homePort) {
+	public Ship(int x, int y, int price, int speed, int dateYear,int numPassShip,int homePort) {
 		super(x, y, price, speed, dateYear);
 		this.numPassShip = numPassShip ; 
 		this.homePort = homePort ;
